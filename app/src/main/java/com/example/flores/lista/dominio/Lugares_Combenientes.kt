@@ -7,16 +7,16 @@ import android.widget.Button
 import com.example.flores.lista.R
 
 
-class Tienda : AppCompatActivity() {
+class Lugares_Combenientes : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tienda)
+        setContentView(R.layout.activity_lugares)
 
         val buttonOKAbout = findViewById<Button>(R.id.ir_Producto)
 
 
         buttonOKAbout.setOnClickListener {
-            val intentAbout = Intent(this, Producto::class.java)
+            val intentAbout = Intent(this, Producto_Compra::class.java)
             startActivity(intentAbout)
 
         }

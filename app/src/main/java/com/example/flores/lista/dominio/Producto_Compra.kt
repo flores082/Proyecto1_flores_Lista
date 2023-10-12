@@ -13,7 +13,7 @@ import com.example.flores.lista.Compras_lista1
 import com.example.flores.lista.R
 import com.example.flores.lista.listadoCompraadapter
 
-class Producto : AppCompatActivity() {
+class Producto_Compra : AppCompatActivity() {
 
     var Lista = mutableListOf<Compras_lista1>()
     //var onClick = IntArray<Compras_lista1>()
@@ -33,7 +33,6 @@ class Producto : AppCompatActivity() {
         initRecyclerView()
 
         val buttonOKAbout = findViewById<Button>(R.id.Agregar)
-        val buttonOKAbout2 = findViewById<Button>(R.id.Lista2)
         buttonOKAbout.setOnClickListener {
             val item = Compras_lista1(
                 "Producto:"+editText.text,
@@ -42,10 +41,6 @@ class Producto : AppCompatActivity() {
             )
             Lista.add(item)
             recyclerView.adapter?.notifyDataSetChanged()
-        }
-        buttonOKAbout2.setOnClickListener {
-            val intentAbout = Intent(this, Lista_Compra::class.java)
-            startActivity(intentAbout)
         }
 
     }

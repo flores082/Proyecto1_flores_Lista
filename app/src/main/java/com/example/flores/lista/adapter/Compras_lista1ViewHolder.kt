@@ -5,6 +5,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.flores.lista.Compras_lista1
 import com.example.flores.lista.R
+import java.awt.font.TextAttribute
 
 
 class Compras_lista1ViewHolder(view:View):RecyclerView.ViewHolder(view) {
