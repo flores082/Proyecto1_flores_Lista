@@ -18,15 +18,27 @@
 
     <Button
         android:id="@+id/ir_Producto"
-        android:layout_width="179dp"
-        android:layout_height="90dp"
+        android:layout_width="223dp"
+        android:layout_height="79dp"
         android:autoSizeTextType="uniform"
         android:scrollbarSize="4dp"
-        android:text="Escribir Productos"
+        android:text="@string/R"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/ir_Compra"
+        android:layout_width="223dp"
+        android:layout_height="79dp"
+        android:autoSizeTextType="uniform"
+        android:scrollbarSize="4dp"
+        android:text="@string/C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 </androidx.constraintlayout.widget.ConstraintLayout>

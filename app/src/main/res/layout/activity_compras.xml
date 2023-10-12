@@ -10,15 +10,30 @@
         android:id="@+id/Agregar"
         android:layout_width="138dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
         android:text="@string/Generar" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/Lista_Compras"
         android:layout_width="match_parent"
         android:layout_height="335dp"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="180dp">
 
     </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/mapa"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/Negocios" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/C"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
 </FrameLayout>

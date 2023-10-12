@@ -18,6 +18,8 @@ class listadoRepositorioadapter(private val LP:List<Compras_lista2>)
     override fun onBindViewHolder(holder: Compras_lista2ViewHolder, position: Int) {
         val item = LP[position]
         holder.render(item)
+
+        
     }
 
     override fun getItemCount(): Int = LP.size

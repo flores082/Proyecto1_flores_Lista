@@ -2,4 +2,7 @@
     <string name="app_name">Lista</string>
     <string name="Borrar">Borrar</string>
     <string name="Generar">Generar</string>
+    <string name="Negocios">Negocios sercanos</string>
+    <string name="R">Repositorio</string>
+    <string name="C">Compras</string>
 </resources>
