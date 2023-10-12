@@ -13,10 +13,7 @@
         android:theme="@style/Theme.Lista"
         tools:targetApi="31" >
         <activity
-            android:name=".dominio.Lista_Repositorio"
-            android:exported="false" />
-        <activity
-            android:name=".dominio.Lista_Compra"
+            android:name=".dominio.Producto_Repositorio"
             android:exported="false" />
         <activity
             android:name=".dominio.Lugares_Combenientes"

@@ -1,11 +1,9 @@
 package com.example.flores.lista.dominio
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -24,20 +22,16 @@ class Producto_Compra : AppCompatActivity() {
         setContentView(R.layout.activity_compras)
 
 
-        val editText=findViewById<EditText>(R.id.editTextText)
-        val editText2=findViewById<EditText>(R.id.editTextText2)
-        val editText3=findViewById<EditText>(R.id.editTextText3)
-
-        recyclerView = findViewById<RecyclerView>(R.id.Lista_Compras1)
+        recyclerView = findViewById<RecyclerView>(R.id.Lista_Compras)
 
         initRecyclerView()
 
         val buttonOKAbout = findViewById<Button>(R.id.Agregar)
         buttonOKAbout.setOnClickListener {
             val item = Compras_lista1(
-                "Producto:"+editText.text,
-                "Precio:$:"+editText2.text,
-                "Marca:"+editText3.text
+                "Producto:",
+                "Precio:$:",
+                "Marca:"
             )
             Lista.add(item)
             recyclerView.adapter?.notifyDataSetChanged()
@@ -45,7 +39,7 @@ class Producto_Compra : AppCompatActivity() {
 
     }
     private fun initRecyclerView(){
-        val recyclerView = findViewById<RecyclerView>(R.id.Lista_Compras1)
+        val recyclerView = findViewById<RecyclerView>(R.id.Lista_Compras)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = listadoCompraadapter(Lista/*,onClick*/)
     }

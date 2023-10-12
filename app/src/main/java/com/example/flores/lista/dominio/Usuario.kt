@@ -12,11 +12,15 @@ class Usuario : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonOKAbout = findViewById<Button>(R.id.ir_Producto)
+        val buttonOKAbout2 = findViewById<Button>(R.id.ir_Repositorio)
 
         buttonOKAbout.setOnClickListener {
             val intentAbout = Intent(this, Producto_Compra::class.java)
             startActivity(intentAbout)
         }
+        buttonOKAbout2.setOnClickListener {
+            val intentAbout = Intent(this, Producto_Repositorio::class.java)
+            startActivity(intentAbout)
+        }
     }
-
 }

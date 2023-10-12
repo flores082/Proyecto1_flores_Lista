@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Lista</string>
     <string name="Borrar">Borrar</string>
-
+    <string name="Generar">Generar</string>
 </resources>
