@@ -1,6 +1,7 @@
 package com.example.flores.lista.dominio
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -32,7 +33,7 @@ class Producto : AppCompatActivity() {
         initRecyclerView()
 
         val buttonOKAbout = findViewById<Button>(R.id.Agregar)
-        val buttonOKAbout2 = findViewById<Button>(R.id.Borrar)
+        val buttonOKAbout2 = findViewById<Button>(R.id.Lista2)
         buttonOKAbout.setOnClickListener {
             val item = Compras_lista1(
                 "Producto:"+editText.text,
@@ -42,7 +43,10 @@ class Producto : AppCompatActivity() {
             Lista.add(item)
             recyclerView.adapter?.notifyDataSetChanged()
         }
-
+        buttonOKAbout2.setOnClickListener {
+            val intentAbout = Intent(this, Lista_Compra::class.java)
+            startActivity(intentAbout)
+        }
 
     }
     private fun initRecyclerView(){
