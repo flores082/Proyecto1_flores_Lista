@@ -11,6 +11,8 @@ Requerimientos
 ⬡ La aplicación debe permitir ver el detalle de los productos. si
 
 
-enlace del vídeo: 
+enlace del vídeo: https://youtu.be/eKDOTzcVoBc
+
 diagrama:https://lucid.app/lucidchart/4e88db20-ef54-4f1b-9883-d11485ff358c/edit?view_items=4LqDsC7~wbsh&invitationId=inv_dda297c9-0ed6-4f9e-9508-c32f5ee398bbhttps://lucid.app/lucidchart/4e88db20-ef54-4f1b-9883-d11485ff358c/edit?view_items=4LqDsC7~wbsh&invitationId=inv_dda297c9-0ed6-4f9e-9508-c32f5ee398bb
+
 apk:https://drive.google.com/file/d/1AnIXWJUpKGLGycIO0tJgGPNYqXGL5ge9/view?usp=drive_link
